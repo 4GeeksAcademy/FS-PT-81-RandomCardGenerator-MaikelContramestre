@@ -1,1 +1,24 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+.cardBase {
+  width: 280px;
+  height: 400px;
+  border-radius: 17px;
+  background-color: white;
+  font-size: 5rem;
+}
+.palo-Down {
+  transform: rotate(180deg);
+}
+
+.red {
+  color: red;
+}
+
+.botones {
+  align-items: center;
+  justify-items: center;
+}
